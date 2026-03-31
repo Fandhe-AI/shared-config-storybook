@@ -3,7 +3,11 @@
   "description": "Shared Storybook configuration for the monorepo",
   "version": "0.0.0",
   "devDependencies": {
+    "@commitlint/cli": "20.5.0",
+    "@commitlint/config-conventional": "20.5.0",
+    "@commitlint/types": "20.5.0",
     "@fandhe-ai/shared-config-typescript": "workspace:*",
+    "lefthook": "2.1.4",
     "storybook": "10.3.3",
     "typescript": "6.0.2"
   },
@@ -11,5 +15,8 @@
     "./*": "./src/config/*.ts"
   },
   "private": true,
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "prepare": "lefthook install"
+  }
 }
