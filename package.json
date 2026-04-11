@@ -8,7 +8,7 @@
     "@commitlint/types": "20.5.0",
     "@fandhe-ai/shared-config-typescript": "workspace:*",
     "lefthook": "2.1.5",
-    "storybook": "10.3.3",
+    "storybook": "10.3.5",
     "typescript": "6.0.2"
   },
   "exports": {
